@@ -42,7 +42,8 @@ userHandler=(event)=>{
 		formData[formElementIdentifier]=this.state.userForm[formElementIdentifier].value
 		//email=test@test.com
 	}
-	console.log(formData)
+    console.log(formData)
+    alert(`The email is :${formData.email}. The mobile no is :${formData.mobile}`)
 }
 
 formChangeHandler=(event,inputIdentifier)=>{
